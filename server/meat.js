@@ -55,15 +55,17 @@ var stickers = {
     spook:"ew i'm spooky",
     forehead:"you have a big forehead",
     ban:"i will ban you so hard right now",
-    flatearth:"this is true, and you cant change my opinion",
+    flatearth:"this is true, and you cant change my opinion you loser",
     swag:"look at my swag!",
     topjej:"toppest jej",
-    cyan:"cyan is yellow? no!",
+    cyan:"cyan is yellow",
     flip:"toppest jej",
-    sans:"cyan is yellow? no!",
+    sans:"bad time",
     no:"nope!",
-    bye:"bye i'm leaving",
+    bye:"bye i'm fucking leaving",
     kiddie:"kiddie",
+    sex:"Bonzi sex",
+    jew:"me jew",
 }
 const Discord = require('discord.js')
 const client = new Discord.Client()
@@ -730,13 +732,11 @@ let userCommands = {
         'ok yall are grounded grounded grounded grounded grounded grounded grounded grounded grounded for 64390863098630985 years go to ur room',
         'i like to eat dog crap off the ground',
         'i can use inspect element to change your name so i can bully you',
-        'i can ban you, my dad is seamus',
+        'i can ban you, my dad is blakeishere',
         'why do woman reject me, i know i masturbate in public and dont shower but still',
         'put your dick in my nose and lets have nasal sex',
         'my cock is 6 ft so ladies please suck it',
 	'I just paid 1000 dollars for damn fucking stand cause I love Apple products so much',
-        'I am Andrej Akan from Collab VM, I am a forkie who loves to destroy Windows with regedit and claim that I live in Pakistan although I actulally live in Croatia.',
-        'Hi I am vacbedlover want to show my sexual fetish by making VM to show stupid BSDM shit, catgirl shit, vacbed and install North Korean shits on VM. I juse keep evading ban on Collab VM to act like a forkie.',
 	"please make pope free",
 	"whats that color",
 	"i listen to baby from justin bieber",
@@ -760,9 +760,7 @@ let userCommands = {
 	"i use hotswap for my xbox 360",
 	"i boycotted left 4 dead 2",
 	"CAN U PLZ UNBAN ME PLZ PLZ PLZ PLZ PLZ PLZ PLZ PLZ",
-	"I made The Rebellion of SeamusMario55&trade;",
 	"I like Unbojih",
-	"ItzCrazyScout, No! More like.... ekfheiophjeodxenwobifuodhndoxnwsiohbdeiowdhn2werifhwefief! He banned euhdeioqwdheiwohjixzojqsioh r23oipwshnwq! End of rant.",
 	"i play left 4 dead games 24/7",
 	"i am so cool. i shit on people, add reactions  that make fun of users on discord, and abuse my admin powers. i am really so cool.",
 	"This product will not operate when connected to a device which makes unauthorized copies. Please refer to your instruction booklet for more information.",
@@ -791,7 +789,9 @@ let userCommands = {
         "i kept asking for admin and now i got muted",
         'I FAP TO FEMMEPYRO NO JOKE',
         'i am not kid',
-        'i am a gamer girl yes not man no im not man i am gamer girl so give me money and ill giv you my adress <3']
+        'i am a gamer girl yes not man no im not man i am gamer girl so give me money and ill giv you my adress <3',
+		'TRUMP 2024',
+		'#StandWithIsrael']
         this.room.emit('talk',{
             text:wtf[Math.floor(Math.random()*wtf.length)],
             guid:this.guid
