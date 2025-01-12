@@ -567,15 +567,14 @@ body.acidmode #chat_send:active {
 }
 
 #login_readme {
-  color: #000;
-  padding: 10px;
-  bottom: 23%;
-  font-size: 8px;
-  width: auto;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  text-align: center;
   left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 9px 12px;
+  border-radius: 3px;
+  color: #444444;
+  text-align: center;
 }
 
 #powered_by_msagent {
@@ -682,6 +681,7 @@ body.acidmode #chat_send:active {
   bottom: 16px;
   font-size: 16px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: right;
 }
 
 #login_social {
@@ -946,6 +946,25 @@ body.acidmode #chat_send:active {
 
 .context-menu-accesskey {
   text-decoration: underline;
+}
+
+.icon {
+    position:relative;
+    margin-top:10px;
+    gap:5px;
+    color:white;
+    width:80px;
+    height:80px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    z-index:999;
+    justify-content: center;
+    text-shadow: 1px 1px black;
+}
+.icon img{
+    width:45px;
+    height:45px;
 }
 
 /*# sourceMappingURL=style.min.css.map */
