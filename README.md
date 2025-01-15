@@ -8,8 +8,8 @@
 ## Setup
 In a terminal/command prompt, navigate to where you'd like BonziWORLD to be placed and run the following:
 ```
-git clone https://github.com/mrnotesonic/BonziWORLD-Revived
-cd BonziWORLD-Revived
+git clone BlakeIsHereStudios/BonziWORLD-Behh-Edition
+cd BonziWORLD-Behh-Edition
 ```
 
 ### Server
